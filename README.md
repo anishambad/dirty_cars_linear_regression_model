@@ -1,37 +1,38 @@
+# 🚗 Car Resale Value Predictor
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-
-# 🚗 Car Resale Value Predictor
-
-An interactive **Streamlit web app** that predicts car resale values using a **Linear Regression model** trained with scikit‑learn.  
-This portfolio project demonstrates end‑to‑end ML deployment: data preprocessing, feature engineering, model training, saving with pickle, and serving predictions through a clean UI.
+## 🚀 Live Demo
+Try the app here: [Car Resale Value Predictor](https://dirtycarslinearregressionmodel-pwddhmzbjug2udqqswarib.streamlit.app/)
 
 ---
 
-## ✨ Features
-- Predict resale value based on:
-  - Year of manufacture
-  - Mileage
-  - Number of owners
-  - Transmission type (manual / automatic / unknown)
-  - Car model (Honda / Toyota / BMW)
-  - Fuel type (Petrol / Gas / Electric / Unknown)
-- Uses **StandardScaler** for consistent predictions
-- Interactive UI built with **Streamlit**
-- Ready for deployment on **Streamlit Cloud**
+## 📖 Project Overview
+This project predicts the **resale value of cars** based on features such as:
+- Year of manufacture  
+- Mileage  
+- Number of owners  
+- Transmission type  
+- Car model  
+- Fuel type  
+
+It uses **Linear Regression** with preprocessing via `StandardScaler` to generate accurate predictions.  
+The app is built with **Streamlit** for interactive deployment.
 
 ---
 
-## 📂 Project Structure
-dirty_cars_linear_regression_model/
-├── app.py                # Streamlit app
-├── linear_model.pkl      # Saved model + scaler
-├── requirements.txt      # Dependencies
-├── README.md             # Project description
-└── .gitignore            # Ignore unnecessary files
+## 🗂️ Repository Structure
+```txt
+.
+├── app.py                # Streamlit app entry point
+├── linear_model.pkl      # Saved model (and scaler if included)
+├── requirements.txt      # Dependencies for deployment
+├── README.md             # Project documentation
+├── LICENSE               # MIT License
+├── .gitignore            # Ignore unnecessary files
+└── .devcontainer/        # Dev container setup (optional)
 
 
