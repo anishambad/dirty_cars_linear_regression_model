@@ -1,4 +1,4 @@
-markdown
+
 # 🚗 Car Resale Value Predictor
 
 An interactive **Streamlit web app** that predicts car resale values using a **Linear Regression model** trained with scikit‑learn.  
