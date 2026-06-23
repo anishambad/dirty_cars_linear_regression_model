@@ -1,4 +1,10 @@
 
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange?logo=scikit-learn)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
+
 # 🚗 Car Resale Value Predictor
 
 An interactive **Streamlit web app** that predicts car resale values using a **Linear Regression model** trained with scikit‑learn.  
